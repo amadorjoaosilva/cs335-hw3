@@ -6,8 +6,8 @@ LFLAGS = -lrt -lX11 -lGLU -lGL -pthread -lm #-lXrandr
 all: asteroids
 
 
-asteroids: asteroids.cpp ppm.c
-	g++ $(CFLAGS) asteroids.cpp -Wall -Wextra $(LFLAGS) -o asteroids
+asteroids: ajsilva.cpp ppm.c
+	g++ $(CFLAGS) ajsilva.cpp -Wall -Wextra $(LFLAGS) -o asteroids
 #asteroids2: asteroids2.cpp ppm.c log.c this was com.
 #	g++ $(CFLAGS) asteroids2.cpp log.c -Wall -Wextra $(LFLAGS) -o asteroids2 this was com.
 
